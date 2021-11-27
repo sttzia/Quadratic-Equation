@@ -61,7 +61,7 @@ function solve() {
   else if (D == 0) {
     var S = -b / (2 * a);
 
-    s1.innerHTML = S.toString();
+    s1.innerHTML = "Only one root... " + S.toString();
   }
 
   // condition for real and different roots
