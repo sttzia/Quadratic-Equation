@@ -1,0 +1,45 @@
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+  background: linear-gradient(90deg, azure, gray);
+}
+
+h1 {
+  font-family: monospace;
+  margin-bottom: 30px;
+}
+
+input {
+  text-align: center;
+  width: 80px;
+  font-size: 28px;
+}
+
+#input {
+  font-size: 28px;
+}
+
+button {
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#NOS {
+  display: none;
+}
+
+#DIS {
+  font-size: 24px;
+  color: aqua;
+}
+
+#S1,
+#S2 {
+  font-family: monospace;
+  font-size: 24px;
+  color: purple;
+}
