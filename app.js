@@ -27,7 +27,7 @@ function solve() {
   }
 
   // calculate discriminant
-  var D = b * b - 4 * a * c;
+   var D = Math.pow(b, 2) - 4 * a * c;
 
   var dis = getID("DIS"),
     nos = getID("NOS"),
